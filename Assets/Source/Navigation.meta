@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Source/Navigation.meta
+guid: b355cc91109e4db498085eab217af22f
+========
+guid: c4e68b4effd51b5419ee80aed4cb5d18
+>>>>>>>> load-scene:Assets/Samples.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

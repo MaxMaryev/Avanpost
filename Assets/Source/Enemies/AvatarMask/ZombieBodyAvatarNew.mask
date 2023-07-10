@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZombieBodyAvatarNew
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Bip001
+    m_Weight: 1
+  - m_Path: Bip001/Bip001 Footsteps
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 L Thigh
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001
+      L Toe0
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001
+      L Toe0/Bip001 L Toe0Nub
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 R Thigh
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001
+      R Toe0
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001
+      R Toe0/Bip001 R Toe0Nub
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle/Bip001 L UpperArm
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger0Nub
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head/Bip001 Ponytail1
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head/Bip001 Ponytail1/Bip001
+      Ponytail1Nub
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle/Bip001 R UpperArm
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0
+    m_Weight: 0
+  - m_Path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger0Nub
+    m_Weight: 0
+  - m_Path: TZ_M_body_01
+    m_Weight: 0
+  - m_Path: TZ_M_body_02
+    m_Weight: 0
+  - m_Path: TZ_M_body_03
+    m_Weight: 0
+  - m_Path: TZ_M_body_04
+    m_Weight: 0
+  - m_Path: TZ_M_body_05
+    m_Weight: 0
+  - m_Path: TZ_M_body_06
+    m_Weight: 0
+  - m_Path: TZ_M_body_07
+    m_Weight: 0
+  - m_Path: TZ_M_body_08
+    m_Weight: 0
+  - m_Path: TZ_M_body_09
+    m_Weight: 0
+  - m_Path: TZ_M_body_10
+    m_Weight: 0
+  - m_Path: TZ_M_body_11
+    m_Weight: 0
+  - m_Path: TZ_M_body_12
+    m_Weight: 0
+  - m_Path: TZ_M_body_13
+    m_Weight: 0
+  - m_Path: TZ_M_body_14
+    m_Weight: 0
+  - m_Path: TZ_M_body_15
+    m_Weight: 0
+  - m_Path: TZ_M_body_16
+    m_Weight: 0
+  - m_Path: TZ_M_body_17
+    m_Weight: 0
+  - m_Path: TZ_M_body_18
+    m_Weight: 0
+  - m_Path: TZ_M_body_19
+    m_Weight: 0
+  - m_Path: TZ_M_body_20
+    m_Weight: 0
+  - m_Path: TZ_M_body_21
+    m_Weight: 0
+  - m_Path: TZ_M_body_22
+    m_Weight: 0
+  - m_Path: TZ_M_body_23
+    m_Weight: 0
+  - m_Path: TZ_M_body_24
+    m_Weight: 0
+  - m_Path: TZ_M_body_25
+    m_Weight: 0
+  - m_Path: TZ_M_body_26
+    m_Weight: 0
+  - m_Path: TZ_M_head_01
+    m_Weight: 0
+  - m_Path: TZ_M_head_02
+    m_Weight: 0
+  - m_Path: TZ_M_head_03
+    m_Weight: 0
+  - m_Path: TZ_M_head_04
+    m_Weight: 0
+  - m_Path: TZ_M_head_05
+    m_Weight: 0
+  - m_Path: TZ_M_head_06
+    m_Weight: 0
+  - m_Path: TZ_M_head_07
+    m_Weight: 0
+  - m_Path: TZ_M_head_08
+    m_Weight: 0
+  - m_Path: TZ_M_head_09
+    m_Weight: 0
+  - m_Path: TZ_M_head_10
+    m_Weight: 0
+  - m_Path: TZ_M_head_11
+    m_Weight: 0
+  - m_Path: TZ_M_head_12
+    m_Weight: 0
+  - m_Path: TZ_M_head_13
+    m_Weight: 0
+  - m_Path: TZ_M_head_14
+    m_Weight: 0
+  - m_Path: TZ_M_head_15
+    m_Weight: 0
+  - m_Path: TZ_M_head_16
+    m_Weight: 0
+  - m_Path: TZ_M_head_17
+    m_Weight: 0
+  - m_Path: TZ_M_head_18
+    m_Weight: 0
+  - m_Path: TZ_M_head_19
+    m_Weight: 0
+  - m_Path: TZ_M_head_20
+    m_Weight: 0
+  - m_Path: TZ_M_head_21
+    m_Weight: 0
+  - m_Path: TZ_M_head_22
+    m_Weight: 0
+  - m_Path: TZ_M_legs_01
+    m_Weight: 0
+  - m_Path: TZ_M_legs_02
+    m_Weight: 0
+  - m_Path: TZ_M_legs_03
+    m_Weight: 0
+  - m_Path: TZ_M_legs_04
+    m_Weight: 0
+  - m_Path: TZ_M_legs_05
+    m_Weight: 0
+  - m_Path: TZ_M_legs_06
+    m_Weight: 0
+  - m_Path: TZ_M_legs_07
+    m_Weight: 0
+  - m_Path: TZ_M_legs_08
+    m_Weight: 0
+  - m_Path: TZ_M_legs_09
+    m_Weight: 0
+  - m_Path: TZ_M_legs_10
+    m_Weight: 0
+  - m_Path: TZ_M_legs_11
+    m_Weight: 0
+  - m_Path: TZ_M_legs_12
+    m_Weight: 0
+  - m_Path: TZ_M_legs_13
+    m_Weight: 0
+  - m_Path: TZ_M_legs_14
+    m_Weight: 0
+  - m_Path: TZ_M_legs_15
+    m_Weight: 0
+  - m_Path: TZ_M_legs_16
+    m_Weight: 0
+  - m_Path: TZ_M_legs_17
+    m_Weight: 0
+  - m_Path: TZ_M_legs_18
+    m_Weight: 0

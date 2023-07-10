@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c5a40e2312d944aa6d5d2640103a52, type: 3}
+  m_Name: WeaponSlotsDatasSO
+  m_EditorClassIdentifier: 
+  _datas:
+  - <WeaponType>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: 21300000, guid: e093642a044013b4da7344910748e524, type: 3}
+    <JunkNeeded>k__BackingField: 500
+    <Description>k__BackingField: DescriptionSniperRifle
+    <Poster>k__BackingField: {fileID: 21300000, guid: be43c50c219d38b40a5182629020401b, type: 3}
+    <Damage>k__BackingField: WeaponParamaterBig
+    <RateFire>k__BackingField: WeaponParamaterLow
+    <StoreCapacity>k__BackingField: WeaponParamaterLow
+    <Reload>k__BackingField: 1.5
+  - <WeaponType>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 9cb95d35b88e8514f80e03648379dbbb, type: 3}
+    <JunkNeeded>k__BackingField: 1500
+    <Description>k__BackingField: DescriptionShotgun
+    <Poster>k__BackingField: {fileID: 21300000, guid: d96b188744829c34ab8222f10ef24fcf, type: 3}
+    <Damage>k__BackingField: WeaponParamaterBig
+    <RateFire>k__BackingField: WeaponParamaterLow
+    <StoreCapacity>k__BackingField: WeaponParamaterMedium
+    <Reload>k__BackingField: 2
+  - <WeaponType>k__BackingField: 4
+    <Icon>k__BackingField: {fileID: 21300000, guid: 2a48bd849c71ae14a8bccb218c84a26e, type: 3}
+    <JunkNeeded>k__BackingField: 3000
+    <Description>k__BackingField: DescriptionAssaultRifle
+    <Poster>k__BackingField: {fileID: 21300000, guid: c2c6f9060fdafc74fbfb06f302ff5d4c, type: 3}
+    <Damage>k__BackingField: WeaponParamaterMedium
+    <RateFire>k__BackingField: WeaponParamaterMedium
+    <StoreCapacity>k__BackingField: WeaponParamaterBig
+    <Reload>k__BackingField: 3
+  - <WeaponType>k__BackingField: 5
+    <Icon>k__BackingField: {fileID: 21300000, guid: b8eecacccc2e79e409573fc0f103de37, type: 3}
+    <JunkNeeded>k__BackingField: 15000
+    <Description>k__BackingField: DescriptionMinigun
+    <Poster>k__BackingField: {fileID: 21300000, guid: ec288f362dd31854bb5d2048abfaf90f, type: 3}
+    <Damage>k__BackingField: WeaponParamaterMedium
+    <RateFire>k__BackingField: WeaponParamaterBig
+    <StoreCapacity>k__BackingField: WeaponParamaterBig
+    <Reload>k__BackingField: 3
+  - <WeaponType>k__BackingField: 6
+    <Icon>k__BackingField: {fileID: 21300000, guid: fbd2c7a786c615148a00ea0493e86453, type: 3}
+    <JunkNeeded>k__BackingField: 20000
+    <Description>k__BackingField: DescriptionFlamethrower
+    <Poster>k__BackingField: {fileID: 21300000, guid: af97773a18f418d46adfa25c77d34100, type: 3}
+    <Damage>k__BackingField: WeaponParamaterBig
+    <RateFire>k__BackingField: WeaponParamaterMedium
+    <StoreCapacity>k__BackingField: WeaponParamaterBig
+    <Reload>k__BackingField: 5

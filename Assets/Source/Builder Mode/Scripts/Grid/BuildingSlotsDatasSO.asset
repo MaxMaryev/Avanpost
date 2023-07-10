@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 697055d6320278241ad84dfaec557218, type: 3}
+  m_Name: BuildingSlotsDatasSO
+  m_EditorClassIdentifier: 
+  _datas:
+  - <Name>k__BackingField: 0
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: aef9e49b0ee33fa46afc7a3a625a2f03, type: 3}
+    <JunkNeeded>k__BackingField: 30
+    <MaxSafetyMargin>k__BackingField: 125
+    <BuildingTemplate>k__BackingField: {fileID: 2605190886093454957, guid: f64f03e611f4daa4b99418de9ff4b9c7, type: 3}
+  - <Name>k__BackingField: 1
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 7d30718bcb435b045922fbb1c07be1b2, type: 3}
+    <JunkNeeded>k__BackingField: 55
+    <MaxSafetyMargin>k__BackingField: 250
+    <BuildingTemplate>k__BackingField: {fileID: 3181452420539515780, guid: 8cd5237025ca99841811a0a757bd19ac, type: 3}
+  - <Name>k__BackingField: 2
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: ffacef8aed560b5489b44e134bc1c927, type: 3}
+    <JunkNeeded>k__BackingField: 100
+    <MaxSafetyMargin>k__BackingField: 500
+    <BuildingTemplate>k__BackingField: {fileID: 9069775943055038022, guid: 79f4e7796e9badd4e8295d381fb4b670, type: 3}
+  - <Name>k__BackingField: 3
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 431c897b69398ee459fcf1d36543430b, type: 3}
+    <JunkNeeded>k__BackingField: 65
+    <MaxSafetyMargin>k__BackingField: 100
+    <BuildingTemplate>k__BackingField: {fileID: 1540482463, guid: 69cf4da307df93442b980d7e7b8ac3ad, type: 3}
+  - <Name>k__BackingField: 4
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: e44580833fbbbc94f966b1de27f1b156, type: 3}
+    <JunkNeeded>k__BackingField: 135
+    <MaxSafetyMargin>k__BackingField: 240
+    <BuildingTemplate>k__BackingField: {fileID: 642350584424095320, guid: 6e68780aa248a9348b7aa3038afa03ed, type: 3}
+  - <Name>k__BackingField: 5
+    <Class>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 423380d56ea14444a83e4abcdabfce7c, type: 3}
+    <JunkNeeded>k__BackingField: 250
+    <MaxSafetyMargin>k__BackingField: 510
+    <BuildingTemplate>k__BackingField: {fileID: 7962586, guid: fd08bb62c55e0db4189f8a1ec6c4fbdb, type: 3}
+  - <Name>k__BackingField: 7
+    <Class>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: 22e65809478c9d24883884dc86335b92, type: 3}
+    <JunkNeeded>k__BackingField: 500
+    <MaxSafetyMargin>k__BackingField: 750
+    <BuildingTemplate>k__BackingField: {fileID: -3509719392853487756, guid: 3f5d37a203962ec489e55f605b930435, type: 3}
+  - <Name>k__BackingField: 6
+    <Class>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: a3215f947a5d15c4ba3c072231b8da64, type: 3}
+    <JunkNeeded>k__BackingField: 999
+    <MaxSafetyMargin>k__BackingField: 750
+    <BuildingTemplate>k__BackingField: {fileID: 698371517442245222, guid: ecdd84d37912aff4d996af768c1b9262, type: 3}
+  - <Name>k__BackingField: 8
+    <Class>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: 21300000, guid: 99da2d256992bc348b948917d264b7f5, type: 3}
+    <JunkNeeded>k__BackingField: 150
+    <MaxSafetyMargin>k__BackingField: 500
+    <BuildingTemplate>k__BackingField: {fileID: 122987804133945196, guid: d29ae01889a458841819ad3afa556caa, type: 3}
+  - <Name>k__BackingField: 9
+    <Class>k__BackingField: 4
+    <Icon>k__BackingField: {fileID: 21300000, guid: d5127ea9baddd8b4eb6216b0856b8860, type: 3}
+    <JunkNeeded>k__BackingField: 100
+    <MaxSafetyMargin>k__BackingField: 10
+    <BuildingTemplate>k__BackingField: {fileID: 1983752071724469045, guid: a865922a164e9c349b3a432e5932e459, type: 3}
+  - <Name>k__BackingField: 10
+    <Class>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: d5127ea9baddd8b4eb6216b0856b8860, type: 3}
+    <JunkNeeded>k__BackingField: 100
+    <MaxSafetyMargin>k__BackingField: 25
+    <BuildingTemplate>k__BackingField: {fileID: 2134356391694933660, guid: 244b60c60a7137a4b878b7e9abc427de, type: 3}

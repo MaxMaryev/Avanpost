@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895db856239790d4d93956bd57a98afb, type: 3}
+  m_Name: SpawnDayWaves
+  m_EditorClassIdentifier: 
+  _waveConfigs:
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 15
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 1
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 15
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 2
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 35
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 3
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 40
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 4
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 50
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 5
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 60
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 6
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 65
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 7
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 8
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 9
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 10
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 11
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 12
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 13
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 14
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 15
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 16
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 17
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 18
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 19
+  - <ZombiesTemplates>k__BackingField:
+    - {fileID: 5850375731882376771, guid: e3be455e806762f43bce87616062949e, type: 3}
+    - {fileID: 8289417801106244728, guid: 9e0ddb02f39ee4f4c85613e982af5f58, type: 3}
+    - {fileID: 6654327828563271363, guid: 90bb6506f76e83c4f8ed460198e651ab, type: 3}
+    - {fileID: 4816822059991878606, guid: 38a6011f52bd87c45a072895f823df96, type: 3}
+    - {fileID: 69057287156054185, guid: c56fe2580d9611c4c97181ea65317aee, type: 3}
+    - {fileID: 3448540199355142954, guid: ffe530f06365b9145b0d201d3e80204c, type: 3}
+    - {fileID: 8718783830414048629, guid: 4988ce1bff9a596458bd04cafc2ae8cf, type: 3}
+    - {fileID: 7457479535957141241, guid: 51f0c770713fbc840889083ae2349d29, type: 3}
+    - {fileID: 1323572579715327010, guid: f92afe44bad79a349a0016a1fc011f27, type: 3}
+    <HulkTemplates>k__BackingField: []
+    <HulkSpawnChanceInPercent>k__BackingField: 0
+    <SpawnDelay>k__BackingField: 0.01
+    <MaxCount>k__BackingField: 70
+    <IsStopWhenMaxCountReached>k__BackingField: 1
+    <DayNumber>k__BackingField: 20

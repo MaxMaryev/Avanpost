@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7dbe7b6f270b75249a102ff867c5c4e4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Old Soviet
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4c0effe997bc0ae45b973c2a112f78a6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

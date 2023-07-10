@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Packages.meta
+guid: 05aa149cac330314fa12ebd8ffa09c9b
+========
+guid: bcb91d24fd8f0c54aae0d6a1b2297928
+>>>>>>>> develop:Assets/Source/WarningNotifier.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

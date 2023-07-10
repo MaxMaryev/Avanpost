@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>{{{ PRODUCT_NAME }}}</title>
+
+    <script type="text/javascript">
+    window.yandexMetricaCounterId = parseInt({{{ METRICA_COUNTER_ID }}});
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(window.yandexMetricaCounterId, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/{{{ METRICA_COUNTER_ID }}}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <script type="text/javascript">
+        ym(window.yandexMetricaCounterId, 'reachGoal', 'pageOpen');
+
+        addEventListener('DOMContentLoaded', (event) => {
+            const pageLoadTime = performance.timing.domContentLoadedEventStart - performance.timing.navigationStart;
+            ym(window.yandexMetricaCounterId, 'reachGoal', 'pageLoad', { pageLoadTime: pageLoadTime / 1000 });
+        });
+    </script>
+</head>
+
+<body style="margin: 0px; overflow: hidden;" oncontextmenu="return false;">
+    <canvas id="unity-canvas"
+            style="position: fixed; width: 100%; height: 100%; background: url('Build/HorizontalBG.jpg') center / cover">
+    </canvas>
+
+    <div id="progress-bar">
+        <div class="globule">
+            <div class="trunk"></div>
+        </div>
+    </div>
+    <div id="progress-bar-tips">
+        <span class='hide'></span>
+    </div>
+
+    <style>
+        #progress-bar {
+            position: absolute;
+            left: 0;
+            top: 88%;
+            height: 1%;
+            right: 100%;
+            z-index: 0;
+        }
+
+            #progress-bar .globule {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            #progress-bar .trunk {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, #ffc36700, 30%, #ffc367);
+                border-top-right-radius: 80%;
+                border-bottom-right-radius: 80%;
+            }
+
+        #progress-bar-tips {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 31%;
+        }
+
+            #progress-bar-tips span {
+                display: block;
+                font-size: 1.4rem;
+                color: #fff;
+                text-shadow: #ffc367 0 1px 2px;
+                text-align: left;
+            }
+
+                #progress-bar-tips span.hide {
+                    opacity: 0;
+                }
+
+                #progress-bar-tips span.show {
+                    opacity: 1;
+                }
+    </style>
+
+    <script>
+        const progressBarTipTextTransitionDuration = 1500;	// Длительность анимации в милисекундах
+        const progressBarTipTextTransitionDelay = 5000;		// Длительность показа совета в милисекундах
+        // Массив с советами
+        const progressBarTipsArray = [
+            {
+                'ru': 'С наступлением вечера скорее возвращайся домой, и убедись, что все готово к встрече ночи',
+                'en': 'With the onset of the evening, come home soon and make sure that everything is ready for the night',
+                'tr': 'Akşamın başlamasıyla birlikte eve erken dön ve her şeyin gecenin buluşması için hazır olduğundan emin ol'
+            },
+            {
+                'ru': 'В режиме строительства время стоит на паузе. Строй основательно, не спеши',
+                'en': 'In the construction mode, time is paused. Build thoroughly, take your time',
+                'tr': 'Yapım modunda zaman duraklatılır. İyice inşa edin, acele etmeyin'
+            },
+            {
+                'ru': 'Если разрушить постройку самому, вернется 75% потраченных на нее ресурсов',
+                'en': 'If you destroy the building yourself, half of the resources spent on it will return',
+                'tr': 'Eğer yapıyı kendiniz yok ederseniz, harcanan kaynakların yarısı geri dönecektir'
+            },
+            {
+                'ru': 'Нажимать кнопку "пропустить день" стоит, только если вы уверены, что готовы встретить ночь',
+                'en': 'You should press the "skip day" button only if you are sure that you are ready to meet the night',
+                'tr': 'Sadece geceyi karşılamaya hazır olduğunuzdan eminseniz "günü atla" düğmesine basmalısınız'
+            },
+            {
+                'ru': 'С каждой ночью врагов становится все больше',
+                'en': 'There are more and more enemies every night',
+                'tr': 'Her gece daha fazla düşman var'
+            }
+        ];
+
+        // получаем язык
+        const getLangParam = () => {
+            let lang = (new URLSearchParams(window.location.search)).get('lang');
+            lang = ['ru', 'en', 'tr'].includes(lang) ? lang : 'ru';
+            return lang;
+        }
+        const progressBarTipTextLanguage = getLangParam();
+
+        const progressBarTipsShowNextTip = () => {
+            progressBarTipsCurrentTip = Math.floor(Math.random() * (progressBarTipsArray.length - 1))
+            /*          progressBarTipsCurrentTip = progressBarTipsCurrentTip >= progressBarTipsArray.length ? 1 : ++progressBarTipsCurrentTip;*/
+            progressBarTipText.innerHTML = progressBarTipsArray[progressBarTipsCurrentTip][progressBarTipTextLanguage];
+            progressBarTipsArray.splice(progressBarTipsCurrentTip, 1);
+            progressBarTipText.className = 'show';
+        }
+
+        let progressBarTipsCurrentTip = 0;
+        const progressBarTipText = document.querySelector("#progress-bar-tips > span");
+        progressBarTipText.style.transitionDuration = (progressBarTipTextTransitionDuration / 1000) + 's';
+        setTimeout(progressBarTipsShowNextTip, 100);
+        let progressBarTipsCoroutine = false;
+
+        setInterval(() => {
+            if (document.querySelector("#progress-bar").style.display === 'none') {
+                clearInterval(progressBarTipsCoroutine);
+                progressBarTipsCoroutine = false;
+                progressBarTipText.style.display = 'none';
+            } else {
+                if (!progressBarTipsCoroutine) {
+                    progressBarTipText.style.display = 'block';
+                    progressBarTipsCoroutine = setInterval(() => {
+                        progressBarTipText.className = 'hide';
+                        setTimeout(() => {
+                            progressBarTipsShowNextTip();
+                        }, progressBarTipTextTransitionDuration);
+                    }, progressBarTipTextTransitionDelay);
+                }
+            }
+        }, 50);
+
+
+        /*        const progressBarLoaf = document.querySelector("#progress-bar > .globule > .loaf");*/
+        const progressBarTrunk = document.querySelector("#progress-bar > .globule > .trunk");
+        /*        progressBarLoaf.style.width = `${progressBarLoaf.parentNode.offsetHeight}px`;*/
+        progressBarTrunk.style.marginRight = `${progressBarTrunk.parentNode.offsetHeight}px`;
+    </script>
+
+    <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+    <script>
+    const settings = {
+      dataUrl: "Build/{{{ DATA_FILENAME }}}",
+      frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+      #if USE_WASM
+      codeUrl: "Build/{{{ CODE_FILENAME }}}",
+      #endif
+      #if MEMORY_FILENAME
+      memoryUrl: "Build/{{{ MEMORY_FILENAME }}}",
+      #endif
+      #if SYMBOLS_FILENAME
+      symbolsUrl: "Build/{{{ SYMBOLS_FILENAME }}}",
+      #endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "{{{ COMPANY_NAME }}}",
+      productName: "{{{ PRODUCT_NAME }}}",
+      productVersion: "{{{ PRODUCT_VERSION }}}",
+      matchWebGLToCanvasSize: true,
+      devicePixelRatio: 1.6, // Uncomment this line to enable anti-aliasing
+    };
+
+    const progressBar = document.querySelector("#progress-bar");
+
+    const unityStartLoadingTime = performance.now();
+    let unityEndLoadingTime = 0;
+    setTimeout(() => {
+      createUnityInstance(document.querySelector("#unity-canvas"), settings, (progress) => {
+        progressBar.style.right = 100 * (1 - progress) + "%";
+      }).then((unityInstance) => {
+        progressBar.style.display = "none";
+        unityEndLoadingTime = performance.now();
+        unityInstance.Module.errorHandler = (errorMessage) => {
+          const unityCrashTime = performance.now();
+          const unityCrashPlaytime = unityEndLoadingTime === 0 ? 0 : (unityCrashTime - unityEndLoadingTime) / 1000;
+          ym(window.yandexMetricaCounterId, 'reachGoal', 'unityGameCrash', { unityCrashPlaytime: unityCrashPlaytime });
+        };
+        ym(window.yandexMetricaCounterId,'reachGoal','unityStart', { unityLoadTime: (unityEndLoadingTime - unityStartLoadingTime) / 1000 });
+      }).catch((errorMessage) => {
+        ym(window.yandexMetricaCounterId, 'reachGoal', 'unityLoadingCrash');
+        alert(errorMessage);
+      });
+    }, 500); // Wait half a second before loading. Makes page more responsive on reload.
+    </script>
+</body>
+
+</html>
